@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Reliability site - copy</title>
+<style>
+body{margin:0;font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;background:#f4f6f9;color:#1b2a3a}
+.band{background:#13294b;color:#fff;padding:18px 16px}.band b{font-size:18px}
+.card{max-width:420px;margin:28px auto;background:#fff;border:1px solid #d5dce5;border-radius:10px;padding:22px 20px}
+label{display:block;font-weight:600;margin:0 0 6px}input{box-sizing:border-box;width:100%;font:inherit;padding:11px 12px;border:1px solid #9aa8b8;border-radius:8px}
+button{margin-top:14px;width:100%;min-height:44px;font:inherit;font-weight:600;color:#fff;background:#1f5fbf;border:0;border-radius:8px;cursor:pointer}
+button:disabled{opacity:.6}.msg{min-height:1.5em;margin-top:12px;color:#a3261b}.ru{color:#4b5b6d;font-size:14px}.at{color:#4b5b6d;font-size:14px;margin-top:14px}
+</style></head><body>
+<div class="band"><b>Reliability site · Baimskaya</b><div class="ru">Hourly read-only copy · Ежечасная копия только для чтения</div></div>
+<div class="card">
+<form id="f"><label for="pw">Password <span class="ru">/ Пароль</span></label>
+<input id="pw" type="password" autocomplete="current-password" required>
+<button id="go" type="submit">Open <span class="ru" style="color:#dfe9fb">/ Открыть</span></button>
+<div id="msg" class="msg" role="status" aria-live="polite"></div></form>
+<div id="at" class="at"></div>
+</div>
+<script src="/_view/login.js"></script>
+</body></html>
